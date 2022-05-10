@@ -26,7 +26,12 @@ class Box
 {
     int l,b,h;
     public:
-    Box(int length=0,int breadth=0,int height=0)
+    Box()
+    {
+        l=b=h=0;
+    }
+    
+    Box(int length,int breadth,int height)
     {
         l=length;
         b=breadth;
